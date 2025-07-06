@@ -25,7 +25,7 @@ const showwinner=(userwin,userchoice, computerchoice) => {
         computerScore++;
         computerScore_span.innerText = computerScore;
         console.log(`You lose! ${computerchoice} beats ${userchoice}`);
-        msg.innerText ="You Lose!!"
+        msg.innerText =`You lose! ${computerchoice} beats ${userchoice}`
         msg.style.backgroundColor='red';
 
     }
