@@ -17,8 +17,8 @@ const draw=() => {
 const showwinner=(userwin,userchoice, computerchoice) => {
     if(userwin){
         userScore++;
-        console.log(`You win! ${userchoice} beats ${computerchoice}`);
-        msg.innerText ="You Win!!"
+        
+        msg.innerText=`You win! ${userchoice} beats ${computerchoice}`
         msg.style.backgroundColor='green';
         userScore_span.innerText = userScore;
     }else{
